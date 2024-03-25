@@ -121,6 +121,34 @@
   .service__list {
     text-align: center;
   }
+  .work__list {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+
+  .about-row {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .about__img--small {
+    display: none;
+  }
+
+  .about__media {
+    width: 100%;
+  }
+
+  .about__img--big {
+    width: 100%;
+    margin: 25px auto;
+    border-radius: 15px;
+  }
+
+  .about-content {
+    width: 90%;
+    text-align: center;
+  }
 }
 
 /* Tablet */
