@@ -82,6 +82,7 @@
     <meta name="theme-color" content="#ffffff" />
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <title>ShineSmile</title>
   </head>
   <body>
@@ -91,7 +92,7 @@
         <div class="header-top">
           <!-- Logo -->
           <a href="./"
-            ><img src="./img/Logo.svg" alt="ShineSmile" class="logo"
+            ><img src="./img/Logo.svg" alt="ShineSmile" class="logo header__logo"
           /></a>
           <!-- Nav -->
           <nav class="navbar">
@@ -137,6 +138,18 @@
         </section>
       </div>
     </header>
+
+    <!-- Tablet mobile header -->
+    <div class="mobile-header">
+      <!-- Tablet mobile menu -->
+      <input type="checkbox" class="menu-checkbox" id="menu-checkbox" name="menu-checkbox" hidden  >
+      <label for="menu-checkbox">
+        <svg class="menu-header__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+      </label>
+
+      <!-- Overlay -->
+      <label for="menu-checkbox" class="menu-overlay" ></label>
+    </div>
     <!-- Main -->
     <main>
     <!--  Our Services -->
